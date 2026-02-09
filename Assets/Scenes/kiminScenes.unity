@@ -279,15 +279,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.059999995
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.059999995
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.059999995
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -351,7 +351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
       propertyPath: m_Controller
@@ -404,6 +404,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -6899241065490116818, guid: 7ade0ffd5b60edd4198046fe4fce505b, type: 2}
     value: {fileID: 794580302}
+  - key: {fileID: 3751279248421718516, guid: 7ade0ffd5b60edd4198046fe4fce505b, type: 2}
+    value: {fileID: 2096637403}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1453259732
@@ -768,6 +770,11 @@ PlayableDirector:
   m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
+--- !u!95 &2096637403 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 6c375d26743652d4196c3d32292435ae, type: 3}
+  m_PrefabInstance: {fileID: 395211706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
